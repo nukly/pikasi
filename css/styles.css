@@ -53,3 +53,17 @@ body {
 .form-row {
     margin: 5px;
 }
+
+.btn {
+    background-color: rgb(208, 241, 166);
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(94, 255, 0);
+}
+
+.form-group>input,
+textarea {
+    background-color: rgb(208, 241, 166);
+}
