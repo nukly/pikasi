@@ -103,7 +103,7 @@
     }
 }
 
-@media screen and (max-width:1380px) {
+@media screen and (min-width:376px) {
     body {
         background-color: rgb(34, 37, 33);
         color: wheat;
