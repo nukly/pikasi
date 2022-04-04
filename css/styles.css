@@ -1,6 +1,7 @@
 body {
     background-color: rgb(34, 37, 33);
     color: wheat;
+    width: 100vw;
 }
 
 .navbar {
@@ -66,4 +67,14 @@ body {
 .form-group>input,
 textarea {
     background-color: rgb(208, 241, 166);
+    color: rgb(34, 32, 32)
+}
+
+.orm-group>input::placeholder {
+    color: rgb(34, 32, 32);
+}
+
+.date {
+    color: rgb(34, 32, 32);
+    cursor: pointer;
 }
