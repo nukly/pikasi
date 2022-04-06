@@ -14,7 +14,6 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        max-zoom: 100%;
     }
 
     .navbar {
