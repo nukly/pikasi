@@ -14,10 +14,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-    }
-
-    .navbar-toggler {
-        padding-right: 3rem;
+        max-zoom: 100%;
     }
 
     .navbar {
