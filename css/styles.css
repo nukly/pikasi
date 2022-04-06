@@ -101,6 +101,16 @@
     .youtube-video {
         width: 80%;
     }
+
+    .scrolled-down {
+        transform: translateY(-100%);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .scrolled-up {
+        transform: translateY(0);
+        transition: all 0.3s ease-in-out;
+    }
 }
 
 @media screen and (min-width:376px) {
@@ -207,5 +217,15 @@
     .youtube-video {
         width: 80%;
         height: 500px
+    }
+
+    .scrolled-down {
+        transform: translateY(-100%);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .scrolled-up {
+        transform: translateY(0);
+        transition: all 0.3s ease-in-out;
     }
 }

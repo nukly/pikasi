@@ -1,17 +1,23 @@
-email = document.querySelector('#email').value
-imeInPriimek = document.querySelector('#name').value
-phone = document.querySelector('#phone').value
-date = document.querySelector('#date').value
-sporocilo = document.querySelector('#sporocilo').value
+document.addEventListener("DOMContentLoaded", function () {
 
-function sendEmail() {
-    Email.send({
-        Host: "smtp.gmail.com",
-        Username: "klemen.brecko@gmail.com",
-        Password: "prqkbcscubxvjwcb",
-        To: "klemen.brecko@gmail.com",
-        From: email,
-        Subject: "Povpraševanje iz spletne strani",
-        Body: `${imeInPriimek} je poslal sporocilo: ${sporocilo}, telefonska številka je ${phone} in datum sporocila je ${date}`
-    }).then((message) => alert("Sporočilo posredovano!!!"))
-}
+    el_autohide = document.querySelector('.autohide');
+
+    if (el_autohide) {
+        var last_scroll_top = 0;
+        window.addEventListener('scroll', function () {
+            let scroll_top = window.scrollY;
+            if (scroll_top < last_scroll_top) {
+                el_autohide.classList.remove('scrolled-down');
+                el_autohide.classList.add('scrolled-up');
+            } else {
+                el_autohide.classList.remove('scrolled-up');
+                el_autohide.classList.add('scrolled-down');
+            }
+            last_scroll_top = scroll_top;
+        });
+        // window.addEventListener
+    }
+    // if
+
+});
+// DOMContentLoaded  end
