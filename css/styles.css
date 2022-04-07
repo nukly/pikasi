@@ -22,6 +22,12 @@
     #footer {
         border: 1px solid rgb(208, 241, 166);
         padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #clani {
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .navbar {
@@ -48,7 +54,7 @@
     }
 
     .card {
-        background-color: rgb(34, 37, 33);
+        background-color: rgba(48, 59, 48, 0.698);
         border: 1px solid wheat;
     }
 
@@ -173,7 +179,7 @@
     }
 
     .card {
-        background-color: rgb(34, 37, 33);
+        background-color: rgba(48, 59, 48, 0.698);
         border: 1px solid wheat;
     }
 
