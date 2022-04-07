@@ -16,6 +16,15 @@
         flex-direction: column;
     }
 
+    #o-nas,
+    #clani,
+    #galerija,
+    #kontakt,
+    #footer {
+        border: 1px solid rgb(208, 241, 166);
+        padding-top: 100px;
+    }
+
     .navbar {
         background-color: rgba(48, 59, 48, 0.698);
         width: 100vw;
@@ -116,6 +125,16 @@
         background-color: rgb(34, 37, 33);
         color: wheat;
         width: 100vw;
+    }
+
+    #o-nas,
+    #clani,
+    #galerija,
+    #kontakt {
+        border: 1px solid rgb(208, 241, 166);
+        padding-top: 100px;
+        padding-bottom: 100px;
+        border-radius: 10px;
     }
 
     .navbar {
