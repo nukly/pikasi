@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
 
     html,
     body {
@@ -19,8 +19,8 @@
     .navbar {
         background-color: rgba(48, 59, 48, 0.698);
         width: 100vw;
-        position: fixed-top;
-        height: 60px;
+        position: fixed;
+        z-index: 1;
     }
 
     .navbar-brand>img {
@@ -33,19 +33,6 @@
 
     .nav-link:hover {
         color: rgb(94, 255, 0);
-    }
-
-    .navbar-collapse {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-    }
-
-    .navbar-collapse {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
     }
 
     .card {
